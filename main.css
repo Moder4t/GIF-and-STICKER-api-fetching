@@ -1,0 +1,33 @@
+#searchContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+button {
+  border: none;
+  padding: 20px;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #6666;
+  cursor: pointer;
+}
+#search {
+  background-color: rgb(143, 152, 233);
+}
+#translate {
+  background-color: rgb(207, 102, 98);
+}
+input {
+  border: none;
+  background-color: #eeee;
+  padding: 10px 20px;
+}
+
+#searchContainer {
+  margin-bottom: 40px;
+}
